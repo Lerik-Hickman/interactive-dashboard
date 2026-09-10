@@ -1,4 +1,15 @@
-p {
-    background-color: blue;
-    color: maroon;
+#goal-message {
+    color: rgb(1, 1, 180);
+}
+
+.description {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    margin: 5px;
 }
