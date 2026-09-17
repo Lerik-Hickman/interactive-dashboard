@@ -22,26 +22,59 @@
         "Unfortunately, your web browser does not support JavaScript"
     </noscript>
     <div class="container">
-    <div class="row">
-        <div class="col" id="weekly-tasks">
-            <form>
-                <input type="text" id="user-name"></input>
-                <label>Name</label>
-                <br>
-                <input type="number" id="daily-goal"></input>
-                <label>Daily Task Goal</label>
-                <br>
-                <input type="number" id="bonus-tasks"></input>
-                <label>Weekly Bonus Task</label>
-                <br><br>
-                <button id="goal-btn">
-                    Calculate Total Goals
-                </button>
-            </form>
-            <p id="goal-message"></p>
-            <script src="js/task-manager.js" defer></script>
+        <div class="row">
+            <div class="col" id="weekly-tasks">
+                <form>
+                    <input type="text" id="user-name"></input>
+                    <label>Name</label>
+                    <br>
+                    <input type="number" id="daily-goal"></input>
+                    <label>Daily Task Goal</label>
+                    <br>
+                    <input type="number" id="bonus-tasks"></input>
+                    <label>Weekly Bonus Task</label>
+                    <br>
+                    <button id="goal-btn">
+                        Calculate Total Goals
+                    </button>
+                </form>
+                <p class="output" id="goal-message"></p>
+                <script src="js/task-manager.js" defer></script>
+            </div>
+            <div class="col" id="metric-converter">
+                <form>
+                    <input type="number" id="conveter-number"></input>
+                    <label>Starting Number</label>
+                    <br>
+                    <select id="input-unit">
+                        <option value="inches">Inches</option>
+                        <option value="feet">Feet</option>
+                        <option value="yards">Yards</option>
+                        <option value="miles">Miles</option>
+                        <option value="centimeters">Centimeters</option>
+                        <option value="meters">Meters</option>
+                        <option value="kilometers">Kilometers</option>
+                    </select>
+                    <label>Starting Units</label>
+                    <select id="output-unit">
+                        <option value="inches">Inches</option>
+                        <option value="feet">Feet</option>
+                        <option value="yards">Yards</option>
+                        <option value="miles">Miles</option>
+                        <option value="centimeters">Centimeters</option>
+                        <option value="meters">Meters</option>
+                        <option value="kilometers">Kilometers</option>
+                    </select>
+                    <label>End Units</label>
+                    <br>
+                    <button id="conversion-btn">
+                        Convert
+                    </button>
+                    <p class="output" id="conversion-result"></p>
+                </form>
+                <script src="js/metric-converter.js" defer></script>
+            </div>
         </div>
     </div>
-</div>
 </body>
 </html>
