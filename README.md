@@ -4,6 +4,7 @@ This is a semester-long project for WEB 115 at Wake Technical Community College 
 ## To-Do
  - [x] Create initial HTML, CSS, and JavaScript files for Dashboard
  - [x] Add a weekly task goal calculator
+ - [x] Add Imperial-Metric Converter
  - [ ] Add sidebar buttons
  - [ ] Create tool-tips for sidebar buttons
  - [ ] Add descriptive text under each element to explain to users what they are looking at
