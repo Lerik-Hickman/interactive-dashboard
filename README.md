@@ -5,6 +5,7 @@ This is a semester-long project for WEB 115 at Wake Technical Community College 
  - [x] Create initial HTML, CSS, and JavaScript files for Dashboard
  - [x] Add a weekly task goal calculator
  - [x] Add Imperial-Metric Converter
+ - [x] Add Magic Eight Ball Game
  - [ ] Add sidebar buttons
  - [ ] Create tool-tips for sidebar buttons
  - [ ] Add descriptive text under each element to explain to users what they are looking at
@@ -86,3 +87,6 @@ ELSE
 IF validInput
 	OUTPUT "inputNum inputUnit(s) is outputNum outputUnit(s)"
 END
+
+## Magic Eight Ball Game
+This feature is an interactable element that allows for users to click on an image of an eight ball to answer questions. Providing a question is necessary for the eight ball to provide an answer.
