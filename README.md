@@ -24,7 +24,7 @@ INPUT outputUnit
 
 IF outputUnit === inputUnit
 	validInput = false
-	
+
 	OUTPUT "there is no conversion to be made"
 ELSE IF inputUnit is miles or mile or mi
 	IF outputUnit is kilometers or kilometer or km
